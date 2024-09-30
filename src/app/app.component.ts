@@ -12,5 +12,5 @@ export class AppComponent {
     { title: 'Relatórios', url: '/relatorios', icon: 'stats-chart' }
   ];
 
-  public labels = ['Conferências', 'Workshops', 'Seminários', 'Palestras'];
+  public labels = ['Conferências', 'Workshops', 'Seminários', 'Palestras', 'Campeonatos'];
 }

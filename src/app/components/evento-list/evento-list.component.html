@@ -1,0 +1,10 @@
+<ion-list>
+  <ion-item *ngFor="let evento of eventos">
+    <ion-label>
+      <h2>{{ evento.name }}</h2>
+      <p>{{ evento.date | date: 'shortDate' }} - {{ evento.location }}</p>
+    </ion-label>
+    <ion-button fill="outline" (click)="registerEvent(evento.id)">Inscrever</ion-button>
+
+  </ion-item>
+</ion-list>
